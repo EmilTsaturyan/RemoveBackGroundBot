@@ -2,7 +2,7 @@ import telebot
 from removebg import RemoveBackGround
 from PIL import Image
 
-bot = telebot.TeleBot("6871923653:AAHNxCmaxf6sbNc9lJi3mHK_R2DIZY7CZAY")
+bot = telebot.TeleBot("BOT TOKEN")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
